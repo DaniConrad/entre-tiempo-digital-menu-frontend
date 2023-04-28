@@ -7,8 +7,8 @@ const getProducts = async (setProducts) => {
                 .catch(err => console.log(err))
 }
 
-const postProducts = async (fd, AXIOSconfig) => {
-    return await axios.post(`${config.API_URL}/dataloadmanagement`, fd, AXIOSconfig)
+const postProducts = async (fd, AXIOSconfig, key) => {
+    return await axios.post(`${config.API_URL}/dataloadmanagement/${key.key}`, fd, AXIOSconfig)
 }
 
 export {

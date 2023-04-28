@@ -21,8 +21,7 @@ const ItemListContainer = () => {
 
     if (products.length > 1) {
         for (let i = 0; i < products.length; i++) {
-            const element = products[i];
-            console.log(element);
+            // const element = products[i];
         }
     }
     
