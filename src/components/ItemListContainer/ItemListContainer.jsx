@@ -9,21 +9,6 @@ const ItemListContainer = () => {
     useEffect(() => { 
         getProducts(setProducts)
     }, [] );
-
-    // if (products.length > 1) {
-    //     const categorys = ['Gaseosas','Vino tinto']
-
-    //     for (let i = 0; i < categorys.length; i++) {
-    //         const element = categorys[i]
-    //         console.log(element);
-    //     }
-    // }
-
-    if (products.length > 1) {
-        for (let i = 0; i < products.length; i++) {
-            // const element = products[i];
-        }
-    }
     
     
     return(
