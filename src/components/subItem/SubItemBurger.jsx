@@ -1,11 +1,8 @@
 import React from 'react'
 
 export const SubItemBurger = ({item}) => {
-console.log("🚀 ~ file: SubItemBurger.jsx:4 ~ SubItemBurger ~ item:", item)
-
-    if (item.price <= 1) {
-        return null
-    }
+  
+  if (item.price <= 1) return null  
 
   return (
     <div className='d-flex flex-row justify-content-between'>

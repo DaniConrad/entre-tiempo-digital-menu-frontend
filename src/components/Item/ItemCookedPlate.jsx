@@ -1,14 +1,20 @@
 import React from "react";
+import { SubItemBurger } from "../subItem/SubItemBurger";
 
-const ItemCookedPlate = ({product}) => {
-    if (product.price <= 1) {
-        return null
-    }
+const ItemCookedPlate = ({items}) => {
+
     return(
-        <div className="d-flex flex-row justify-content-between">
-            <h2 className="text-light">{product.name}</h2>
-            <h2 className="text-light">${product.price}</h2>
-        </div>
+        <div>
+            <div>
+                {items.filter(item => item.subCategory === "variedad").map(item => <SubItemBurger item={item} key={item.name}/>)}
+            </div>
+            <div>
+                {items.filter(item => item.subCategory === "Milanesas").map(item => <SubItemBurger item={item} key={item.name}/>)}
+            </div>
+            <div>
+                {items.filter(item => item.subCategory === "Wook").map(item => <SubItemBurger item={item} key={item.name}/>)}
+            </div>
+        </div>    
             
     )}
 
