@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const SubItemBurger = ({item}) => {
+export const SubItem = ({item}) => {
   
   if (item.price <= 1) return null  
 
