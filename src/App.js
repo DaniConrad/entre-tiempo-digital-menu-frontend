@@ -1,27 +1,24 @@
 import './App.css';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import AdminUploadsProducts from './components/Admin/AdminUploadProducts/AdminUploadsProducts';
+import Cards from './components/Cards/Cards';
 
 function App() {
    
 
   return (
 
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
+        <Cards />
           <Routes>
-          <Route path='/' element={<ItemListContainer />}  />
-          
-            <Route path='/adminuploads' 
-                  element={
-                      <AdminUploadsProducts />
-                  }
-            />
-              </Routes>
+            <Route path='/' element={<ItemListContainer /> }  />
+            <Route path='/adminuploads' element={ <AdminUploadsProducts /> } />
+                 
+          </Routes>
       </div>
-
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

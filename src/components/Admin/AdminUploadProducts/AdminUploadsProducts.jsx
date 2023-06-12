@@ -23,7 +23,6 @@ const AdminUploadsProducts = () => {
         e.preventDefault()
         const fd = new FormData();
         fd.append('Products', file);
-        console.log(file);
         let AXIOSconfig = {
             headers: { 'Content-Type': 'multipart/form-data' }
         }
@@ -46,7 +45,7 @@ const AdminUploadsProducts = () => {
                 <Form.Group className="mb-1">
                     <Form.Control
                         type="password"
-                        placeholder="Ingresa la descripción corta del producto."
+                        placeholder="Ingresa la clave."
                         onChange={ handleInputChange }
                         name='key'
                         className='login-form-input'
