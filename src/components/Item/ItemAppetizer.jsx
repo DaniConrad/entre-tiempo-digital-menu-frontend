@@ -1,7 +1,7 @@
 import React from "react";
 import { SubItem } from "../subItem/SubItem";
 
-const ItemAppetizer = ({items}) => {
+const ItemAppetizer = ({items, title, subCategory}) => {
 
     return(
         <div>

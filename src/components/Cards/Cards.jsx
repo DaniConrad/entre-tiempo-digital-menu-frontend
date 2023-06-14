@@ -14,18 +14,17 @@ const Cards = () => {
         <div className='d-flex flex-wrap'>
             {
                 items.map(item => (
-                    <Figure>
+                    <Figure key={item.alt}>
                         <Figure.Image
                             width={171}
                             height={180}
                             alt={item.alt}
                             src= {item.src}
                         />
-                    </Figure>)
+                    </Figure>
+                    )
                 )
-
             }
-
         </div>
     )
 }

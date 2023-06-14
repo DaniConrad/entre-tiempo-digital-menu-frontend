@@ -13,5 +13,5 @@ const postProducts = async (fd, AXIOSconfig, key) => {
 
 export {
     getProducts,
-    postProducts
+    postProducts,
 } 

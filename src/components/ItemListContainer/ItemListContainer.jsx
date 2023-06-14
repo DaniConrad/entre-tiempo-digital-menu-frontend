@@ -10,7 +10,6 @@ const ItemListContainer = () => {
         getProducts(setProducts)
     }, [] );
     
-    
     return(
     <div>
         <ItemList products={products}/>
