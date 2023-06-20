@@ -27,7 +27,8 @@ const AdminUploadsProducts = () => {
             headers: { 'Content-Type': 'multipart/form-data' }
         }
         postProducts(fd, AXIOSconfig, values)
-            .then(res => { if (res.data === "success") return setAct("") })
+            // .then(res => { if (res.data === "success") return setAct("text-light") })
+            .then(res => { if (res.data === "success") console.log(res.data) })
             .catch(err => { if (err) return setErr("") })
     }
 

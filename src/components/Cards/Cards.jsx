@@ -9,12 +9,12 @@ const Cards = () => {
   };
 
     const items = [
-        { alt: "Hamburguesas", src: "./img/cards/a.jpeg", href: "burgers" },
-        { alt: "Pizzas", src: "./img/cards/b.jpeg", href: "pizzas" },
-        { alt: "Entradas", src: "./img/cards/appetizer.webp", href: "appetizers" },
-        { alt: "Platos", src: "./img/cards/bistec.webp", href: "cookedPlates" },
-        { alt: "Bebidas", src: "./img/cards/drinksBottles.jpg", href: "drinks" },
-        { alt: "Ver Carta", src: "./img/cards/menu.jpg", href: "drinks" }
+        { alt: "Entradas", src: "./img/testing/appetizer.jpeg", href: "appetizers" },
+        { alt: "Pizzas", src: "./img/testing/pizza.jpeg", href: "pizzas" },
+        { alt: "Platos", src: "./img/testing/cooked.jpeg", href: "cookedPlates" },
+        { alt: "Bebidas", src: "./img/testing/drink.jpeg", href: "drinks" },
+        { alt: "Postres", src: "./img/testing/dessert.jpeg", href: "desserts" },
+        { alt: "Ver Carta", src: "./img/testing/menu.jpeg", href: "drinks" }
     ]
 
     return (
