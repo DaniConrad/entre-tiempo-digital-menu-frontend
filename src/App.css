@@ -33,6 +33,7 @@
   font-family: 'Luckiest Guy', cursive;
   color: #B4B4B4;
   -webkit-text-stroke: 1px black;
+  font-size: 5.5vw;
 }
 
 /* -- Blobs --  */
@@ -45,8 +46,8 @@
 }
 
 .blob {
-  width: 195px;
-  height: 195px;
+  width: 45%;
+  height: 30%;
   overflow: hidden;
   border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
   /* background: url('../public/img/bistec.webp'); */
@@ -54,6 +55,7 @@
   background-position: center;
   box-shadow: 0 0 15px rgba(0, 0, 0, .2);
   animation: blob 3.7s linear infinite;
+  text-decoration: none;
 }
 
 @keyframes blob {

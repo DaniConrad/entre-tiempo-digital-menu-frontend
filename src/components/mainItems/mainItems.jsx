@@ -1,5 +1,5 @@
 export const mainItems = [
-        { title: "./img/titles/drinks.png", category: "Bebidas", 
+        { id: "drinks", title: "./img/titles/drinks.png", category: "Bebidas", 
             items: [
               { subCategory: "Cervezas", subTitle: "Cervezas" },
               { subCategory: "Gaseosas", subTitle: "Sin Alcohol" },
@@ -7,40 +7,40 @@ export const mainItems = [
               { subCategory: "Tragos", subTitle: "Tragos" }
             ]
         },
-        { title: "./img/titles/titleapetizzers.png", category: "Picadas", 
+        { id: "appetizers", title: "./img/titles/titleapetizzers.png", category: "Picadas", 
             items: [
-              { subCategory: "Tapeo", subTitle: "" }
+              { subCategory: "Tapeo", subTitle: undefined }
             ]
         },
-        { title: "Hamburguesas", category: "Hambuerguesas", 
+        { id: "burgers", title: "Hamburguesas", category: "Hambuerguesas", 
             items: [
               { subCategory: "Carnes", subTitle: "Medallón" },
               { subCategory: "Complemento", subTitle: "Adicionales" },
               { subCategory: "Panes", subTitle: "Pan" }
             ]
         },
-        { title: "Platos Calientes", category: "Platos Calientes", 
+        { id: "cookedPlates", title: "Platos Calientes", category: "Platos Calientes", 
             items: [
-              { subCategory: "variedad", subTitle: "" },
-              { subCategory: "Milanesas", subTitle: "" },
-              { subCategory: "Wook", subTitle: "" },
+              { subCategory: "variedad", subTitle: undefined },
+              { subCategory: "Milanesas", subTitle: undefined },
+              { subCategory: "Wook", subTitle: undefined },
               { subCategory: "Celiacos", subTitle: "Sin TACC" }
             ]
         },
-        { title: "Empanadas", category: "empanada", 
+        { id: "empanadas", title: "Empanadas", category: "empanada", 
             items: [
-              { subCategory: "Variedad", subTitle: "" },
+              { subCategory: "Variedad", subTitle: undefined },
             ]
         },
-        { title: "Postres", category: "Postres", 
+        { id: "desserts", title: "Postres", category: "Postres", 
             items: [
-              { subCategory: "Helados", subTitle: "" },
-              { subCategory: "Varios", subTitle: "" },
+              { subCategory: "Helados", subTitle: undefined },
+              { subCategory: "Varios", subTitle: undefined },
             ]
         },
-        { title: "./img/test.png", category: "Pizza", 
+        { id: "pizzas", title: "./img/titles/test.png", category: "Pizza", 
             items: [
-              { subCategory: "Grande", subTitle: "" },
+              { subCategory: "Grande", subTitle: undefined },
             ]
         }
 ]

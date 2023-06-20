@@ -8,10 +8,10 @@ import { mainItems } from '../mainItems/mainItems'
     <div className='container'>
       { 
         mainItems.map(mainItem => 
-          <div key={ mainItem.title }>
+          <div key={ mainItem.id } id={ mainItem.id }>
             {/* <h2 className='text-light text-center sub-title'>{mainItem.title}</h2> */}
             <div className='d-flex justify-content-center'>
-              <img src={mainItem.title} className='titles' alt="" />
+              <img src={mainItem.title} className='titles'  alt=''/>
             </div>
             
             <Item items={ products.filter(product => product.category === mainItem.category)} subData = { mainItem.items } />
