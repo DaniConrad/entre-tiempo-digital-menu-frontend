@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ItemList from "../ItemList/ItemList";
 import { getProducts } from '../../services/services'
-
+import Cards from '../Cards/Cards'
 
 const ItemListContainer = () => {
     const [products, setProducts] = useState([]);
@@ -11,7 +11,9 @@ const ItemListContainer = () => {
     }, [] );
     
     return(
+        
     <div>
+        <Cards />
         <ItemList products={products}/>
     </div>
         

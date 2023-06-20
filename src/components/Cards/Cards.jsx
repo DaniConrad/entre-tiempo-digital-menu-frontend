@@ -9,13 +9,13 @@ const Cards = () => {
   };
 
     const items = [
-        { alt: "Entradas", src: "./img/testing/appetizer.jpeg", href: "appetizers" },
-        { alt: "Pizzas", src: "./img/testing/pizza.jpeg", href: "pizzas" },
-        { alt: "Platos", src: "./img/testing/cooked.jpeg", href: "cookedPlates" },
-        { alt: "Bebidas", src: "./img/testing/drink.jpeg", href: "drinks" },
-        { alt: "Postres", src: "./img/testing/dessert.jpeg", href: "desserts" },
-        { alt: "Ver Carta", src: "./img/testing/menu.jpeg", href: "drinks" }
-    ]
+        { alt: "Entradas", src: "./img/cards/appetizer.jpeg", href: "appetizers" },
+        { alt: "Pizzas", src: "./img/cards/pizza.jpeg", href: "pizzas" },
+        { alt: "Platos", src: "./img/cards/cooked.jpeg", href: "cookedPlates" },
+        { alt: "Bebidas", src: "./img/cards/drink.jpeg", href: "drinks" },
+        { alt: "Postres", src: "./img/cards/dessert.jpeg", href: "desserts" },
+        { alt: "Ver Carta", src: "./img/cards/menu.jpeg", href: "drinks" }
+    ] 
 
     return (
         <div className='d-flex flex-wrap justify-content-center blob-container'>
