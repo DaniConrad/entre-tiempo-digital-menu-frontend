@@ -19,7 +19,7 @@ const Cards = () => {
 
     return (
         <div className='d-flex flex-wrap justify-content-center blob-container'>
-            {
+            {   
                 items.map(item => (
                     <div onClick={e => handleLinkClick(e, item.href)} className="blob d-flex align-items-center justify-content-center" style={{backgroundImage: `url(${item.src})`}} key={item.alt || Math.random()}>
                         <h2 className="cards-title" > { item.alt } </h2>
