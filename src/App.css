@@ -22,3 +22,55 @@
   background-size: cover;
   min-height: 100vh;
 }
+
+.titles {
+  width: 20rem;
+}
+
+/*-- -- Cards -- --  */
+
+.cards-title {
+  font-family: 'Luckiest Guy', cursive;
+  color: #B4B4B4;
+  -webkit-text-stroke: 1px black;
+}
+
+/* -- Blobs --  */
+
+.blob-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blob {
+  width: 195px;
+  height: 195px;
+  overflow: hidden;
+  border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+  /* background: url('../public/img/bistec.webp'); */
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+  animation: blob 3.7s linear infinite;
+}
+
+@keyframes blob {
+  0%, 100% {
+      border-radius:
+          42% 56% 72% 28% / 42% 42% 56% 48%;
+  }
+
+  33% {
+      border-radius:
+          42% 28% 48% 48% / 28% 28% 72% 72%;
+  }
+
+  66% {
+      border-radius:
+          100% 56% 56% 100% / 100% 100% 56% 56%;
+  }
+}
+
+/*-- -- End of cards -- --  */

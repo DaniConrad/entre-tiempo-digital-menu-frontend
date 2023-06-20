@@ -1,27 +1,23 @@
 import React from 'react'
-import Figure from 'react-bootstrap/Figure';
 
 const Cards = () => {
 
     const items = [
-        { alt: "burger", src: "./img/burger.webp" },
-        { alt: "pizza", src: "./img/pizza.webp" },
-        { alt: "appetizer", src: "./img/appetizer.webp" },
-        { alt: "bistec", src: "./img/bistec.webp" }
+        { alt: "Hamburguesas", src: "./img/cards/burger.webp" },
+        { alt: "Pizzas", src: "./img/cards/pizza.webp" },
+        { alt: "Entradas", src: "./img/cards/appetizer.webp" },
+        { alt: "Platos", src: "./img/cards/bistec.webp" },
+        { alt: "Bebidas", src: "./img/cards/drinksBottles.jpg" },
+        { alt: "Ver Carta", src: "./img/cards/menu.jpg" }
     ]
 
     return (
-        <div className='d-flex flex-wrap'>
+        <div className='d-flex flex-wrap justify-content-center blob-container'>
             {
                 items.map(item => (
-                    <Figure key={item.alt}>
-                        <Figure.Image
-                            width={171}
-                            height={180}
-                            alt={item.alt}
-                            src= {item.src}
-                        />
-                    </Figure>
+                    <div class="blob d-flex align-items-center justify-content-center" style={{backgroundImage: `url(${item.src})`}}>
+                        <h2 className="cards-title" > { item.alt } </h2>
+                    </div>
                     )
                 )
             }

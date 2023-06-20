@@ -1,5 +1,5 @@
 export const mainItems = [
-        { title: "Bebidas", category: "Bebidas", 
+        { title: "./img/titles/drinks.png", category: "Bebidas", 
             items: [
               { subCategory: "Cervezas", subTitle: "Cervezas" },
               { subCategory: "Gaseosas", subTitle: "Sin Alcohol" },
@@ -7,7 +7,7 @@ export const mainItems = [
               { subCategory: "Tragos", subTitle: "Tragos" }
             ]
         },
-        { title: "Tapeos", category: "Picadas", 
+        { title: "./img/titles/titleapetizzers.png", category: "Picadas", 
             items: [
               { subCategory: "Tapeo", subTitle: "" }
             ]
@@ -23,7 +23,8 @@ export const mainItems = [
             items: [
               { subCategory: "variedad", subTitle: "" },
               { subCategory: "Milanesas", subTitle: "" },
-              { subCategory: "Wook", subTitle: "" }
+              { subCategory: "Wook", subTitle: "" },
+              { subCategory: "Celiacos", subTitle: "Sin TACC" }
             ]
         },
         { title: "Empanadas", category: "empanada", 
@@ -37,7 +38,7 @@ export const mainItems = [
               { subCategory: "Varios", subTitle: "" },
             ]
         },
-        { title: "Pizzas", category: "Pizza", 
+        { title: "./img/test.png", category: "Pizza", 
             items: [
               { subCategory: "Grande", subTitle: "" },
             ]
