@@ -9,8 +9,8 @@ const Cards = () => {
   };
 
     const items = [
-        { alt: "Hamburguesas", src: "./img/cards/burger.webp", href: "burgers" },
-        { alt: "Pizzas", src: "./img/cards/pizza.webp", href: "pizzas" },
+        { alt: "Hamburguesas", src: "./img/cards/a.jpeg", href: "burgers" },
+        { alt: "Pizzas", src: "./img/cards/b.jpeg", href: "pizzas" },
         { alt: "Entradas", src: "./img/cards/appetizer.webp", href: "appetizers" },
         { alt: "Platos", src: "./img/cards/bistec.webp", href: "cookedPlates" },
         { alt: "Bebidas", src: "./img/cards/drinksBottles.jpg", href: "drinks" },
