@@ -6,8 +6,8 @@ export const SubItem = ({item}) => {
 
   return (
     <div className='d-flex flex-row justify-content-between'>
-        <h2 className="text-light">{item.name}</h2>
-        <h2 className="text-light">${item.price}</h2>
+        <p className="sub-item text-light fw-semibold">{item.name}</p>
+        <p className="sub-item text-light fw-semibold">${item.price}</p>
     </div>
   )
 }

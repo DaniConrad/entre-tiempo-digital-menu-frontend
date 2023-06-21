@@ -2,7 +2,7 @@ export const mainItems = [
         { id: "drinks", title: "./img/titles/drinks.png", category: "Bebidas", 
             items: [
               { subCategory: "Cervezas", subTitle: "Cervezas" },
-              { subCategory: "Gaseosas", subTitle: "Sin Alcohol" },
+              { subCategory: "Gaseosas", subTitle: "SIN ALCOHOL" },
               { subCategory: "", subTitle: "Latas" },
               { subCategory: "Tragos", subTitle: "Tragos" }
             ]
@@ -12,7 +12,7 @@ export const mainItems = [
               { subCategory: "Tapeo", subTitle: undefined }
             ]
         },
-        { id: "burgers", title: "Hamburguesas", category: "Hambuerguesas", 
+        { id: "burgers", title: "./img/titles/burgers.png", category: "Hambuerguesas", 
             items: [
               { subCategory: "Carnes", subTitle: "Medallón" },
               { subCategory: "Complemento", subTitle: "Adicionales" },
@@ -24,10 +24,10 @@ export const mainItems = [
               { subCategory: "variedad", subTitle: undefined },
               { subCategory: "Milanesas", subTitle: undefined },
               { subCategory: "Wook", subTitle: undefined },
-              { subCategory: "Celiacos", subTitle: "Sin TACC" }
+              { subCategory: "Celiacos", subTitle: "SIN TACC" }
             ]
         },
-        { id: "empanadas", title: "Empanadas", category: "empanada", 
+        { id: "empanadas", title: "./img/titles/empanadas.png", category: "empanada", 
             items: [
               { subCategory: "Variedad", subTitle: undefined },
             ]
