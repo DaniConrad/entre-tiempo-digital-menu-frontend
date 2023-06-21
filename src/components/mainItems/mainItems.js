@@ -7,7 +7,7 @@ export const mainItems = [
               { subCategory: "Tragos", subTitle: "Tragos" }
             ]
         },
-        { id: "appetizers", title: "./img/titles/titleapetizzers.png", category: "Picadas", 
+        { id: "appetizers", title: "./img/titles/appetizers.png", category: "Picadas", 
             items: [
               { subCategory: "Tapeo", subTitle: undefined }
             ]
@@ -19,7 +19,7 @@ export const mainItems = [
               { subCategory: "Panes", subTitle: "Pan" }
             ]
         },
-        { id: "cookedPlates", title: "Platos Calientes", category: "Platos Calientes", 
+        { id: "cookedPlates", title: "./img/titles/plates.png", category: "Platos Calientes", 
             items: [
               { subCategory: "variedad", subTitle: undefined },
               { subCategory: "Milanesas", subTitle: undefined },
@@ -32,13 +32,13 @@ export const mainItems = [
               { subCategory: "Variedad", subTitle: undefined },
             ]
         },
-        { id: "desserts", title: "Postres", category: "Postres", 
+        { id: "desserts", title: "./img/titles/desserts.png", category: "Postres", 
             items: [
               { subCategory: "Helados", subTitle: undefined },
               { subCategory: "Varios", subTitle: undefined },
             ]
         },
-        { id: "pizzas", title: "./img/titles/test.png", category: "Pizza", 
+        { id: "pizzas", title: "./img/titles/pizzas.png", category: "Pizza", 
             items: [
               { subCategory: "Grande", subTitle: undefined },
             ]
